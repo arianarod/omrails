@@ -1,0 +1,24 @@
+$navbarBackgroundHighlight: white;
+$navbarBackground: white;
+
+@import 'bootstrap';
+
+body {
+	padding-top: 60px;
+}
+
+@import 'bootstrap-responsive';
+
+.hero-unit{
+
+	color: red;
+}
+
+.footer{
+
+	margin-top: 50px;
+	color: graylight;
+	a{
+		color: $gray;
+	}
+}
