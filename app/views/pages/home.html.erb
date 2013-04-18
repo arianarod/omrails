@@ -1,4 +1,6 @@
-
+<% if user_signed_in? %>
+<h1>Welcome Back to Yoga For All</h1>
+<% else %>
 <div class="hero-unit">
   </p>
 <h1>Yoga For All</h1>
@@ -6,6 +8,7 @@
 		Become a Yoga Master in your Living Room
 	</p>
 	<p>
-	<%= link_to "Find out more!", about_path %>
+	<%= link_to "Sign Up Now!", new_user_registration_path %>
 	</p>
 </div>
+<% end %>
