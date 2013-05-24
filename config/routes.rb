@@ -18,7 +18,7 @@ get 'contact' => 'pages#contact'
 
 get 'faqs' => 'pages#faqs'
 
-end
+$end
 
 
   # The priority is based upon order of creation:
