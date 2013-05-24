@@ -15,7 +15,7 @@
  
       <!-- Everything you want hidden at 940px or less, place within here -->
       <div class="nav-collapse collapse">
-      	<ul class="nav">
+      	<ul class="nav nav-tabs">
        	 	<li><%= link_to "Home", root_path %></li>
     			<li><%= link_to "About Us", about_path %></li>
           <li><%= link_to "Sequences", sequences_path %></li>
@@ -24,6 +24,7 @@
           <li><%= link_to "Contact Us", contact_path %></li>
           <li><%= link_to "FAQs", faqs_path %></li>
 		    </ul>
+
 		  <ul class="nav pull-right">
           <% if user_signed_in? %>
           <li><%= link_to "Edit Profile", edit_user_registration_path %></li>
@@ -32,6 +33,7 @@
           <li><%= link_to "login", new_user_session_path %></li>
           <% end %>
 					</ul>
+
       </div>
  
     </div>
