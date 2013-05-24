@@ -18,6 +18,16 @@ get 'contact' => 'pages#contact'
 
 get 'faqs' => 'pages#faqs'
 
+get 'hip' => 'pages#hip'
+
+get 'flexibility' => 'pages#flexibility'
+
+get 'bns' => 'pages#bns'
+
+get 'heart' => 'pages#heart'
+
+get 'restorative' => 'pages#restorative'
+
 $end
 
 

@@ -20,5 +20,20 @@ class PagesController < ApplicationController
   def faqs
   end
 
+  def hip
+  end
+
+  def flexibility
+  end
+
+  def bns
+  end
+
+  def restorative 
+  end
+
+  def heart 
+  end
+
 end
 
