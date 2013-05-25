@@ -28,6 +28,20 @@ get 'heart' => 'pages#heart'
 
 get 'restorative' => 'pages#restorative'
 
+get 'basic' => 'pages#basic'
+
+get 'hipopeners' => 'pages#hipopeners'
+
+get 'arm' => 'pages#arm'
+
+get 'inversions' => 'pages#arm'
+
+get 'bends' => 'pages#bends'
+
+get 'twists' => 'pages#twists'
+
+get 'prana' => 'pages#prana'
+
 $end
 
 

@@ -35,5 +35,26 @@ class PagesController < ApplicationController
   def heart 
   end
 
+  def basic
+  end
+
+  def hipopeners
+  end
+
+  def arm 
+  end
+
+  def inversions
+  end
+
+  def bends
+  end
+
+  def twists
+  end
+
+  def prana
+  end
+
 end
 
