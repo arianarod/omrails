@@ -1,4 +1,6 @@
 Omrails::Application.routes.draw do
+  devise_for :installs
+
   resources :pins
 
 
